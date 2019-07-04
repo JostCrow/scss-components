@@ -1,0 +1,127 @@
+.button {
+  padding: $spacing-double $spacing-triple;
+  background-color: $color-primary;
+  border: 1px solid $color-primary;
+  color: $color-white;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color .3s ease;
+  transition: border .3s ease;
+  transition: color .3s ease;
+
+  &:hover {
+    background-color: darken($color-primary, 20);
+    border-color: darken($color-primary, 20);
+  }
+
+  &.button--secondary {
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+
+    &:hover {
+      background-color: darken($color-secondary, 20);
+      border-color: darken($color-secondary, 20);
+    }
+  }
+
+  &.button--success {
+    background-color: $color-success;
+    border-color: $color-success;
+
+    &:hover {
+      background-color: darken($color-success, 20);
+      border-color: darken($color-success, 20);
+    }
+  }
+
+  &.button--info {
+    background-color: $color-info;
+    border-color: $color-info;
+
+    &:hover {
+      background-color: darken($color-info, 20);
+      border-color: darken($color-info, 20);
+    }
+  }
+
+  &.button--warning {
+    background-color: $color-warning;
+    border-color: $color-warning;
+
+    &:hover {
+      background-color: darken($color-warning, 20);
+      border-color: darken($color-warning, 20);
+    }
+  }
+
+  &.button--danger {
+    background-color: $color-danger;
+    border-color: $color-danger;
+
+    &:hover {
+      background-color: darken($color-danger, 20);
+      border-color: darken($color-danger, 20);
+    }
+  }
+
+  &.button--open {
+    background-color: transparent;
+    color: $color-primary;
+
+    &:hover {
+      background-color: darken($color-primary, 20);
+      border-color: darken($color-primary, 20);
+      color: $color-white;
+    }
+
+    &.button--secondary {
+      color: $color-secondary;
+
+      &:hover {
+        background-color: darken($color-secondary, 20);
+        border-color: darken($color-secondary, 20);
+        color: $color-white;
+      }
+    }
+
+    &.button--success {
+      color: $color-success;
+
+      &:hover {
+        background-color: darken($color-success, 20);
+        border-color: darken($color-success, 20);
+        color: $color-white;
+      }
+    }
+
+    &.button--info {
+      color: $color-info;
+
+      &:hover {
+        background-color: darken($color-info, 20);
+        border-color: darken($color-info, 20);
+        color: $color-white;
+      }
+    }
+
+    &.button--warning {
+      color: $color-warning;
+
+      &:hover {
+        background-color: darken($color-warning, 20);
+        border-color: darken($color-warning, 20);
+        color: $color-white;
+      }
+    }
+
+    &.button--danger {
+      color: $color-danger;
+
+      &:hover {
+        background-color: darken($color-danger, 20);
+        border-color: darken($color-danger, 20);
+        color: $color-white;
+      }
+    }
+  }
+}

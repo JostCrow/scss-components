@@ -1,0 +1,31 @@
+{
+  "name": "scss-components",
+  "version": "0.0.1",
+  "description": "Some default styled components",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build scss/scss-components.scss",
+    "watch": "parcel watch scss/scss-components.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JostCrow/scss-components.git"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "components"
+  ],
+  "author": "Jostcrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JostCrow/scss-components/issues"
+  },
+  "homepage": "https://github.com/JostCrow/scss-components#readme",
+  "dependencies": {
+    "parcel": "^1.10.3"
+  },
+  "devDependencies": {
+    "sass": "^1.15.2"
+  }
+}

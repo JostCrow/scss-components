@@ -1,0 +1,36 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    .table__header {
+        .table__cell {
+            font-weight: 700;
+            border-bottom: 2px solid $color-gray-500;
+        }
+    }
+
+    .table__body {
+        .table__row {
+            &:hover {
+                background-color: $color-gray-300;
+            }
+        }
+    }
+
+    .table__cell {
+        padding: $spacing-double;
+        text-align: left;
+        border-bottom: 1px solid $color-gray-500;
+    }
+
+    &.table--striped {
+        .table__body {
+            .table__row {
+                &:nth-child(even) {
+                    background-color: $color-gray-200;
+                }
+            }
+        }
+    }
+}

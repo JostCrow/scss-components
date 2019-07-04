@@ -1,0 +1,18 @@
+.list {
+    list-style: none;
+
+    .list__item {
+        border-bottom: 1px solid $color-gray-400;
+
+        &.list__item--spacing {
+            padding: $spacing-triple;
+        }
+    }
+
+
+    .list__link {
+        color: $color-indigo;
+        display: block;
+        padding: $spacing-triple;
+    }
+}
