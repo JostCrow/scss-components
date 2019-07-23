@@ -1,11 +1,19 @@
 .list {
-    list-style: none;
+    display: flex;
+    flex-direction: column;
 
     .list__item {
-        border-bottom: 1px solid $color-gray-400;
+        display: grid;
+        grid-template-columns: 150px 1fr 150px;
+        grid-template-rows: 150px;
+        grid-gap: $spacing-double;
+        border: 1px solid #ddd;
+        padding: $spacing-quadruple;
+        box-sizing: border-box;
+        margin-bottom: $spacing-double;
 
-        &.list__item--spacing {
-            padding: $spacing-triple;
+        &:hover {
+            box-shadow: 0 0 4px transparentize($color: #000000, $amount: .8);
         }
     }
 

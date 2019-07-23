@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "parcel build scss/scss-components.scss",
-    "watch": "parcel watch scss/scss-components.scss"
+    "watch": "parcel watch scss/scss-components.scss",
+    "show": "serve"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
   },
   "homepage": "https://github.com/JostCrow/scss-components#readme",
   "dependencies": {
-    "parcel": "^1.10.3"
+    "parcel": "^1.12.3",
+    "serve": "^11.0.2"
   },
   "devDependencies": {
     "sass": "^1.15.2"

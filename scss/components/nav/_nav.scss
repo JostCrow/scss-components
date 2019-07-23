@@ -1,0 +1,18 @@
+.nav {
+    background-color: #24292e;
+    color: #fff;
+
+    .nav__item {
+        padding: 20px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .nav__link {
+        color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

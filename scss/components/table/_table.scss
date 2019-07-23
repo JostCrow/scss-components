@@ -19,7 +19,7 @@
     }
 
     .table__cell {
-        padding: $spacing-double;
+        padding: $spacing-quadruple $spacing-double;
         text-align: left;
         border-bottom: 1px solid $color-gray-500;
     }
@@ -29,6 +29,10 @@
             .table__row {
                 &:nth-child(even) {
                     background-color: $color-gray-200;
+
+                    &:hover {
+                        background-color: $color-gray-300;
+                    }
                 }
             }
         }

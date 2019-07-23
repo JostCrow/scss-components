@@ -10,6 +10,11 @@
   transition: color .3s ease;
 
   &:hover {
+    background-color: darken($color-primary, 10);
+    border-color: darken($color-primary, 10);
+  }
+  &:active {
+    transform: translateY(1px);
     background-color: darken($color-primary, 20);
     border-color: darken($color-primary, 20);
   }
@@ -19,6 +24,11 @@
     border-color: $color-secondary;
 
     &:hover {
+      background-color: darken($color-secondary, 10);
+      border-color: darken($color-secondary, 10);
+    }
+    &:active {
+      transform: translateY(1px);
       background-color: darken($color-secondary, 20);
       border-color: darken($color-secondary, 20);
     }
@@ -29,6 +39,11 @@
     border-color: $color-success;
 
     &:hover {
+      background-color: darken($color-success, 10);
+      border-color: darken($color-success, 10);
+    }
+    &:active {
+      transform: translateY(1px);
       background-color: darken($color-success, 20);
       border-color: darken($color-success, 20);
     }
@@ -39,6 +54,11 @@
     border-color: $color-info;
 
     &:hover {
+      background-color: darken($color-info, 10);
+      border-color: darken($color-info, 10);
+    }
+    &:active {
+      transform: translateY(1px);
       background-color: darken($color-info, 20);
       border-color: darken($color-info, 20);
     }
@@ -49,6 +69,11 @@
     border-color: $color-warning;
 
     &:hover {
+      background-color: darken($color-warning, 10);
+      border-color: darken($color-warning, 10);
+    }
+    &:active {
+      transform: translateY(1px);
       background-color: darken($color-warning, 20);
       border-color: darken($color-warning, 20);
     }
@@ -59,9 +84,21 @@
     border-color: $color-danger;
 
     &:hover {
+      background-color: darken($color-danger, 10);
+      border-color: darken($color-danger, 10);
+    }
+    &:active {
+      transform: translateY(1px);
       background-color: darken($color-danger, 20);
       border-color: darken($color-danger, 20);
     }
+  }
+
+  &.button--link {
+    text-decoration: underline;
+    color: $color-primary;
+    background-color: transparent;
+    border-color: transparent;
   }
 
   &.button--open {
@@ -69,6 +106,12 @@
     color: $color-primary;
 
     &:hover {
+      background-color: darken($color-primary, 10);
+      border-color: darken($color-primary, 10);
+      color: $color-white;
+    }
+    &:active {
+      transform: translateY(1px);
       background-color: darken($color-primary, 20);
       border-color: darken($color-primary, 20);
       color: $color-white;
@@ -78,6 +121,12 @@
       color: $color-secondary;
 
       &:hover {
+        background-color: darken($color-secondary, 10);
+        border-color: darken($color-secondary, 10);
+        color: $color-white;
+      }
+      &:active {
+        transform: translateY(1px);
         background-color: darken($color-secondary, 20);
         border-color: darken($color-secondary, 20);
         color: $color-white;
@@ -88,6 +137,12 @@
       color: $color-success;
 
       &:hover {
+        background-color: darken($color-success, 10);
+        border-color: darken($color-success, 10);
+        color: $color-white;
+      }
+      &:active {
+        transform: translateY(1px);
         background-color: darken($color-success, 20);
         border-color: darken($color-success, 20);
         color: $color-white;
@@ -98,6 +153,12 @@
       color: $color-info;
 
       &:hover {
+        background-color: darken($color-info, 10);
+        border-color: darken($color-info, 10);
+        color: $color-white;
+      }
+      &:active {
+        transform: translateY(1px);
         background-color: darken($color-info, 20);
         border-color: darken($color-info, 20);
         color: $color-white;
@@ -108,6 +169,11 @@
       color: $color-warning;
 
       &:hover {
+        background-color: darken($color-warning, 10);
+        border-color: darken($color-warning, 10);
+        color: $color-white;
+      }
+      &:hover {
         background-color: darken($color-warning, 20);
         border-color: darken($color-warning, 20);
         color: $color-white;
@@ -117,6 +183,11 @@
     &.button--danger {
       color: $color-danger;
 
+      &:hover {
+        background-color: darken($color-danger, 10);
+        border-color: darken($color-danger, 10);
+        color: $color-white;
+      }
       &:hover {
         background-color: darken($color-danger, 20);
         border-color: darken($color-danger, 20);
