@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/JostCrow/scss-components#readme",
   "dependencies": {
-    "parcel": "^1.12.3",
+    "parcel": "^2.8.2",
     "serve": "^11.0.2"
   },
   "devDependencies": {
